@@ -1,6 +1,7 @@
 import React from 'react';
 import Landing from './components/Landing'
 import Projects from './components/Projects'
+import About from './components/About'
 import './App.css'
 
 import {
@@ -21,6 +22,9 @@ const App = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="#" as="span">
+              <Link to="/about">About</Link>
+            </Nav.Link>
+            <Nav.Link href="#" as="span">
               <Link to="/projects">Projects</Link>
             </Nav.Link>
           </Nav>
@@ -28,6 +32,9 @@ const App = () => {
       </Navbar>
 
         <Switch>
+          <Route path="/about">
+            <About /> 
+          </Route>
           <Route path="/projects">
             <Projects />
           </Route>

@@ -8,3 +8,11 @@ body {
 #navbar {
   background-color:none;
 }
+
+a {
+  color: rgb(197, 201, 216);
+}
+
+a:hover {
+  color: rgb(117, 117, 173);
+}
