@@ -2,6 +2,7 @@ body {
   height: 100%;
   background-color: #18181a;
   color: white;
+  font-family: 'Cascadia Mono Light', 'Courier New';
 }
 
 #navbar {

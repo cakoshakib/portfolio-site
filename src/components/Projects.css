@@ -1,0 +1,13 @@
+
+.projectTitle {
+  font-weight: bolder;
+  color:rgb(210, 210, 252);
+}
+
+img {
+  max-width: 500px;
+}
+
+.row {
+  padding-top: 40px;
+}

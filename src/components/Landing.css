@@ -20,4 +20,17 @@
 
 h1 {
   font-size: 3em;
+  font-family: 'Space Mono';
+}
+
+span {
+  white-space: pre;
+}
+
+#name {
+  color: rgb(121, 170, 121);
+}
+
+#college {
+  color: red;
 }

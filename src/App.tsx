@@ -1,5 +1,6 @@
 import React from 'react';
 import Landing from './components/Landing'
+import Projects from './components/Projects'
 import './App.css'
 
 import {
@@ -15,21 +16,21 @@ const App = () => {
     <Router>
       <div className="container">
       <Navbar collapseOnSelect expand="lg" variant="dark" id="navbar">
-        <Navbar.Brand href="#">Shakib Rahman</Navbar.Brand>
+        <Navbar.Brand href="/">Shakib Rahman</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="#" as="span">
-              <Link to="/">home</Link>
-            </Nav.Link>
-            <Nav.Link href="#" as="span">
-              <Link to="/">placeholder</Link>
+              <Link to="/projects">Projects</Link>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
 
         <Switch>
+          <Route path="/projects">
+            <Projects />
+          </Route>
           <Route path="/">
             <div className="d-flex flex-column min-vh-90 justify-content-center align-items-center">
               <Landing />
