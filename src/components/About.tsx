@@ -1,9 +1,20 @@
 import './About.css'
+//@ts-ignore
+import TypeWriterEffect from 'react-typewriter-effect'
 
 const About = () => {
   return (
     <div id="aboutContainer">
-      <h1>Hello</h1>
+      <TypeWriterEffect
+            startDelay={100}
+            cursorColor="black"
+            multiText={[
+              "cat me.html",
+              "Hello, world.",
+            ]}
+            multiTextDelay={300}
+            typeSpeed={200}
+          />
       <h2>My name is <span id="name">Shakib</span>, here is a little about me!</h2> 
       <ul>
         <li>Currently a sophomore at <span id="college">Rutgers University New Brunswick</span>.</li>

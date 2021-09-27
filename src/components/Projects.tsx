@@ -1,6 +1,7 @@
-import React from 'react';
 import './Projects.css'
 import { Image } from 'react-bootstrap'
+//@ts-ignore
+import TypeWriterEffect from 'react-typewriter-effect'
 
 const Description = ({ link, title, desc }: {link: string, title: string, desc: string}) => {
   return (
@@ -17,7 +18,7 @@ const Project = ({ title, link, img, desc }: {title: string, link: string, img: 
   return (
     <div className="row">
       <div className="col-sm">
-        <Image src={img}/>
+        <Image className="mx-auto" src={img}/>
       </div>
       <div className="col-sm">
         <Description link={link} title={title} desc={desc}/>  
@@ -30,13 +31,22 @@ const Project = ({ title, link, img, desc }: {title: string, link: string, img: 
 const Projects = () => {
   return (
     <div id="projectsContainer">
+      <TypeWriterEffect
+            startDelay={100}
+            cursorColor="black"
+            multiText={[
+              "cat projects.html",
+              "Projects",
+            ]}
+            multiTextDelay={300}
+            typeSpeed={200}
+          />
       <Project 
         title="Wrind"
         link="https://github.com/rosalogia/wrind"
         img="https://i.imgur.com/l76pHow.gif"
         desc="This was a project created for HackRU Fall 2020. It ended up winning Best UI/UX! The premise of the project was to help foreign language learners practice their chosen language by allowing them to easily have flashcards made based on a chosen media input. I was in charge of the front end, linking up the backend, and webscraping data to convert into readable csv files."
       />
-      <hr />
       <Project 
         title="Late Bus Sign Up App"
         link="https://github.com/nbthstech/late-bus-signup"

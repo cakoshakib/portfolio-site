@@ -1,7 +1,7 @@
-import React from 'react';
 import Landing from './components/Landing'
 import Projects from './components/Projects'
 import About from './components/About'
+import Contact from './components/Contact'
 import './App.css'
 
 import {
@@ -16,7 +16,7 @@ const App = () => {
   return (
     <Router>
       <div className="container">
-      <Navbar collapseOnSelect expand="lg" variant="dark" id="navbar">
+      <Navbar collapseOnSelect className="m-auto justify-content-center" expand="lg" variant="dark" id="navbar">
         <Navbar.Brand href="/">Shakib Rahman</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -26,6 +26,12 @@ const App = () => {
             </Nav.Link>
             <Nav.Link href="#" as="span">
               <Link to="/projects">Projects</Link>
+            </Nav.Link>
+            <Nav.Link href="#" as="span">
+              <a href="https://drive.google.com/file/d/1Y-PxhRrDg8sWTGkHzuBuIN06nxA8Qd9Z/view?usp=sharing">Resume</a>
+            </Nav.Link>
+            <Nav.Link href="#" as="span">
+              <Link to="/Contact">Contact</Link>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
@@ -37,6 +43,11 @@ const App = () => {
           </Route>
           <Route path="/projects">
             <Projects />
+          </Route>
+          <Route path="/contact">
+            <div className="d-flex flex-column min-vh-90 justify-content-center align-items-center">
+              <Contact />
+            </div>
           </Route>
           <Route path="/">
             <div className="d-flex flex-column min-vh-90 justify-content-center align-items-center">

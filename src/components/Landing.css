@@ -3,6 +3,7 @@
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align:center;
 }
 
 #pfp {
@@ -15,16 +16,12 @@
 }
 
 .sub-desc {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 h1 {
-  font-size: 3.4em;
+  font-size: 3em;
   font-family: 'Space Mono';
-}
-
-span {
-  white-space: pre;
 }
 
 #name {
@@ -33,4 +30,11 @@ span {
 
 #college {
   color: red;
+}
+#headerContainer h3 {
+    -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
 }
