@@ -32,7 +32,7 @@ const Projects = () => {
   return (
     <div id="projectsContainer">
       <TypeWriterEffect
-            startDelay={100}
+            startDelay={50}
             cursorColor="black"
             multiText={[
               "cat projects.html",

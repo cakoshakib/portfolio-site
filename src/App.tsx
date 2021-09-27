@@ -21,17 +21,17 @@ const App = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#" as="span">
+            <Nav.Link href="/about" as="span">
               <Link to="/about">About</Link>
             </Nav.Link>
-            <Nav.Link href="#" as="span">
+            <Nav.Link href="/projects" as="span">
               <Link to="/projects">Projects</Link>
             </Nav.Link>
             <Nav.Link href="#" as="span">
               <a href="https://drive.google.com/file/d/1Y-PxhRrDg8sWTGkHzuBuIN06nxA8Qd9Z/view?usp=sharing">Resume</a>
             </Nav.Link>
-            <Nav.Link href="#" as="span">
-              <Link to="/Contact">Contact</Link>
+            <Nav.Link href="/contact" as="span">
+              <Link to="/contact">Contact</Link>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
