@@ -41,6 +41,18 @@ const Projects = () => {
             multiTextDelay={300}
             typeSpeed={200}
           />
+      <Project
+        title="Wenda"
+        link="https://github.com/cakoshakib/wenda"
+        img="https://i.imgur.com/dMwBULo.gif"
+        desc="A productivity manager with the goal of security and efficiency. Capable of tracking the users weekly agenda, dates, and todos. It was written in TypeScript with ElectronJS. Uses ReactJS for the front-end and responsive design. Wenda stores data persistently in local JSON storage, leaving the users data in their own hands."
+      />
+      <Project
+        title="VLC - Ani - Discord"
+        link="https://github.com/cakoshakib/vlc-ani-discord"
+        img="https://i.imgur.com/Kn5tsmP.gif"
+        desc="A quality of life/automation tool for Anime watchers using VLC Media Player. The tool scrapes and then parses VLC metadata. Using the data, it displays  rich presence status text on Discord. Upon completion of the playback it automatically updates AniList progress using their GraphQL API."
+      />
       <Project 
         title="Wrind"
         link="https://github.com/rosalogia/wrind"
