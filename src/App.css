@@ -28,7 +28,8 @@ a:hover {
 }
 
 .tsparticles-canvas-el {
-  position:absolute;
+  position: absolute;
+  z-index: -1;
 }
 
 @keyframes fadein {
