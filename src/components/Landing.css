@@ -45,3 +45,9 @@ h1 {
   -webkit-animation-delay: 0.7s;
   animation-delay: 0.7s;
 }
+
+#ts-particles {
+  z-index: -1;
+  display:block;
+  position:absolute;
+}
