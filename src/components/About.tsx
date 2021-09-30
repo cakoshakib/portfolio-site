@@ -24,7 +24,7 @@ const About = () => {
         <li>I am currently working on...</li>
         <ul>
           <li><a href="https://github.com/cakoshakib/wenda">Wenda</a></li> 
-          <li>Learning Golang.</li>
+          <li>Learning Rust.</li>
           <li>Practicing Competitive Programming.</li>
           <li>Studying Systems Programming and Principles of Programming Languages</li>
           <li>Along with Linear Algebra, Probability, and Differential Equations.</li>
