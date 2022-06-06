@@ -17,7 +17,7 @@ const About = () => {
       </h2>
       <ul>
         <li>
-          Currently a sophomore at{" "}
+          Currently a Junior at{" "}
           <span id="college">Rutgers University New Brunswick</span>.
         </li>
         <li>
@@ -31,16 +31,14 @@ const About = () => {
         </li>
         <li>
           My favorite languages are <b>Java/TypeScript</b>, <b>Python</b>, and{" "}
-          <b>C++</b>.
+          <b>C/C++</b>.
         </li>
         <li>I am currently working on...</li>
         <ul>
-          <li>Working @ Colgate-Palmolive</li>
-          <li>Learning Rust.</li>
+          <li>Working @ Verisk</li>
+          <li>Learning Golang</li>
+          <li>Working on <a href="https://github.com/cakoshakib/ani-tui">AniTUI</a></li>
           <li>Practicing Competitive Programming.</li>
-          <li>
-            Studying Operating Systems, Algorithms, Real Analysis, and Physics
-          </li>
         </ul>
         <li>
           In my free time I enjoy chatting with friends, playing video games,
